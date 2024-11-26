@@ -1,0 +1,348 @@
+INFO - 2024-11-25 17:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 17:11:49 --> Call to undefined function CodeIgniter\Shield\Controllers\setting()
+in FCPATH\vendor\codeigniter4\shield\src\Controllers\MagicLinkController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(894): CodeIgniter\Shield\Controllers\MagicLinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 17:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 17:44:50 --> Myth\Auth\Authentication\Passwords\PasswordValidator::check(): Argument #2 ($user) must be of type ?Myth\Auth\Entities\User, CodeIgniter\Shield\Entities\User given, called in C:\xampp\htdocs\ci-homeland\vendor\codeigniter4\shield\src\Authentication\Passwords\ValidationRules.php on line 55
+in FCPATH\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php on line 26.
+ 1 FCPATH\vendor\codeigniter4\shield\src\Authentication\Passwords\ValidationRules.php(55): Myth\Auth\Authentication\Passwords\PasswordValidator->check('12345', Object(CodeIgniter\Shield\Entities\User))
+ 2 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Shield\Authentication\Passwords\ValidationRules->strong_password('12345', '', [...], null, 'password')
+ 3 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('password', 'Auth.password', '12345', [...], [...])
+ 4 SYSTEMPATH\Controller.php(165): CodeIgniter\Validation\Validation->run([...], null, null)
+ 5 FCPATH\vendor\codeigniter4\shield\src\Controllers\RegisterController.php(100): CodeIgniter\Controller->validateData([...], [...], [], null)
+ 6 SYSTEMPATH\CodeIgniter.php(922): CodeIgniter\Shield\Controllers\RegisterController->registerAction()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 17:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 17:48:57 --> Myth\Auth\Authentication\Passwords\PasswordValidator::check(): Argument #2 ($user) must be of type ?Myth\Auth\Entities\User, CodeIgniter\Shield\Entities\User given, called in C:\xampp\htdocs\ci-homeland\vendor\codeigniter4\shield\src\Authentication\Passwords\ValidationRules.php on line 55
+in FCPATH\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php on line 26.
+ 1 FCPATH\vendor\codeigniter4\shield\src\Authentication\Passwords\ValidationRules.php(55): Myth\Auth\Authentication\Passwords\PasswordValidator->check('zE9-YJzPCH-mD4t', Object(CodeIgniter\Shield\Entities\User))
+ 2 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Shield\Authentication\Passwords\ValidationRules->strong_password('zE9-YJzPCH-mD4t', '', [...], null, 'password')
+ 3 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('password', 'Auth.password', 'zE9-YJzPCH-mD4t', [...], [...])
+ 4 SYSTEMPATH\Controller.php(165): CodeIgniter\Validation\Validation->run([...], null, null)
+ 5 FCPATH\vendor\codeigniter4\shield\src\Controllers\RegisterController.php(100): CodeIgniter\Controller->validateData([...], [...], [], null)
+ 6 SYSTEMPATH\CodeIgniter.php(922): CodeIgniter\Shield\Controllers\RegisterController->registerAction()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 17:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-25 17:52:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Properties\PropertiesController::$db is deprecated in APPPATH\Controllers\Properties\PropertiesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(894): App\Controllers\Properties\PropertiesController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 17:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 17:52:44 --> Myth\Auth\Authentication\Passwords\PasswordValidator::check(): Argument #2 ($user) must be of type ?Myth\Auth\Entities\User, CodeIgniter\Shield\Entities\User given, called in C:\xampp\htdocs\ci-homeland\vendor\codeigniter4\shield\src\Authentication\Passwords\ValidationRules.php on line 55
+in FCPATH\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php on line 26.
+ 1 FCPATH\vendor\codeigniter4\shield\src\Authentication\Passwords\ValidationRules.php(55): Myth\Auth\Authentication\Passwords\PasswordValidator->check(':PY5n5b-YezUmVC', Object(CodeIgniter\Shield\Entities\User))
+ 2 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Shield\Authentication\Passwords\ValidationRules->strong_password(':PY5n5b-YezUmVC', '', [...], null, 'password')
+ 3 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('password', 'Auth.password', ':PY5n5b-YezUmVC', [...], [...])
+ 4 SYSTEMPATH\Controller.php(165): CodeIgniter\Validation\Validation->run([...], null, null)
+ 5 FCPATH\vendor\codeigniter4\shield\src\Controllers\RegisterController.php(100): CodeIgniter\Controller->validateData([...], [...], [], null)
+ 6 SYSTEMPATH\CodeIgniter.php(922): CodeIgniter\Shield\Controllers\RegisterController->registerAction()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 17:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 17:58:18 --> Myth\Auth\Authentication\Passwords\PasswordValidator::check(): Argument #2 ($user) must be of type ?Myth\Auth\Entities\User, CodeIgniter\Shield\Entities\User given, called in C:\xampp\htdocs\ci-homeland\vendor\codeigniter4\shield\src\Authentication\Passwords\ValidationRules.php on line 55
+in FCPATH\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php on line 26.
+ 1 FCPATH\vendor\codeigniter4\shield\src\Authentication\Passwords\ValidationRules.php(55): Myth\Auth\Authentication\Passwords\PasswordValidator->check('my:b7uMH4J_SgS-', Object(CodeIgniter\Shield\Entities\User))
+ 2 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Shield\Authentication\Passwords\ValidationRules->strong_password('my:b7uMH4J_SgS-', '', [...], null, 'password')
+ 3 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('password', 'Auth.password', 'my:b7uMH4J_SgS-', [...], [...])
+ 4 SYSTEMPATH\Controller.php(165): CodeIgniter\Validation\Validation->run([...], null, null)
+ 5 FCPATH\vendor\codeigniter4\shield\src\Controllers\RegisterController.php(100): CodeIgniter\Controller->validateData([...], [...], [], null)
+ 6 SYSTEMPATH\CodeIgniter.php(922): CodeIgniter\Shield\Controllers\RegisterController->registerAction()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-25 17:59:05 --> Call to a member function routes() on null
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\Router\RouteCollection.php(339): require()
+ 2 SYSTEMPATH\CodeIgniter.php(790): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(445): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci-homeland\\public\\index.php')
+CRITICAL - 2024-11-25 17:59:08 --> Call to a member function routes() on null
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\Router\RouteCollection.php(339): require()
+ 2 SYSTEMPATH\CodeIgniter.php(790): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(445): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci-homeland\\public\\index.php')
+INFO - 2024-11-25 18:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 18:01:34 --> Myth\Auth\Authentication\Passwords\PasswordValidator::check(): Argument #2 ($user) must be of type ?Myth\Auth\Entities\User, CodeIgniter\Shield\Entities\User given, called in C:\xampp\htdocs\ci-homeland\vendor\codeigniter4\shield\src\Authentication\Passwords\ValidationRules.php on line 55
+in FCPATH\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php on line 26.
+ 1 FCPATH\vendor\codeigniter4\shield\src\Authentication\Passwords\ValidationRules.php(55): Myth\Auth\Authentication\Passwords\PasswordValidator->check('N_G!N8-Mwh7qirB', Object(CodeIgniter\Shield\Entities\User))
+ 2 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Shield\Authentication\Passwords\ValidationRules->strong_password('N_G!N8-Mwh7qirB', '', [...], null, 'password')
+ 3 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('password', 'Auth.password', 'N_G!N8-Mwh7qirB', [...], [...])
+ 4 SYSTEMPATH\Controller.php(165): CodeIgniter\Validation\Validation->run([...], null, null)
+ 5 FCPATH\vendor\codeigniter4\shield\src\Controllers\RegisterController.php(100): CodeIgniter\Controller->validateData([...], [...], [], null)
+ 6 SYSTEMPATH\CodeIgniter.php(922): CodeIgniter\Shield\Controllers\RegisterController->registerAction()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-25 18:02:49 --> Class "Services" not found
+in APPPATH\Config\Routes.php on line 8.
+ 1 SYSTEMPATH\Router\RouteCollection.php(339): require()
+ 2 SYSTEMPATH\CodeIgniter.php(790): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(445): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-25 18:02:59 --> Class "Services" not found
+in APPPATH\Config\Routes.php on line 8.
+ 1 SYSTEMPATH\Router\RouteCollection.php(339): require()
+ 2 SYSTEMPATH\CodeIgniter.php(790): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(445): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-25 18:04:29 --> Class "Services" not found
+in APPPATH\Config\Routes.php on line 8.
+ 1 SYSTEMPATH\Router\RouteCollection.php(339): require()
+ 2 SYSTEMPATH\CodeIgniter.php(790): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(445): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-25 18:15:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Properties\PropertiesController::$db is deprecated in APPPATH\Controllers\Properties\PropertiesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(894): App\Controllers\Properties\PropertiesController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-25 18:15:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Properties\PropertiesController::$db is deprecated in APPPATH\Controllers\Properties\PropertiesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(894): App\Controllers\Properties\PropertiesController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 18:15:53 --> Myth\Auth\Authentication\Passwords\PasswordValidator::check(): Argument #2 ($user) must be of type ?Myth\Auth\Entities\User, CodeIgniter\Shield\Entities\User given, called in C:\xampp\htdocs\ci-homeland\vendor\codeigniter4\shield\src\Authentication\Passwords\ValidationRules.php on line 55
+in FCPATH\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php on line 26.
+ 1 FCPATH\vendor\codeigniter4\shield\src\Authentication\Passwords\ValidationRules.php(55): Myth\Auth\Authentication\Passwords\PasswordValidator->check('iJ5:p5ALtWR.CM-', Object(CodeIgniter\Shield\Entities\User))
+ 2 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Shield\Authentication\Passwords\ValidationRules->strong_password('iJ5:p5ALtWR.CM-', '', [...], null, 'password')
+ 3 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('password', 'Auth.password', 'iJ5:p5ALtWR.CM-', [...], [...])
+ 4 SYSTEMPATH\Controller.php(165): CodeIgniter\Validation\Validation->run([...], null, null)
+ 5 FCPATH\vendor\codeigniter4\shield\src\Controllers\RegisterController.php(100): CodeIgniter\Controller->validateData([...], [...], [], null)
+ 6 SYSTEMPATH\CodeIgniter.php(922): CodeIgniter\Shield\Controllers\RegisterController->registerAction()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 18:17:24 --> Myth\Auth\Authentication\Passwords\PasswordValidator::check(): Argument #2 ($user) must be of type ?Myth\Auth\Entities\User, CodeIgniter\Shield\Entities\User given, called in C:\xampp\htdocs\ci-homeland\vendor\codeigniter4\shield\src\Authentication\Passwords\ValidationRules.php on line 55
+in FCPATH\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php on line 26.
+ 1 FCPATH\vendor\codeigniter4\shield\src\Authentication\Passwords\ValidationRules.php(55): Myth\Auth\Authentication\Passwords\PasswordValidator->check('iJ5:p5ALtWR.CM-', Object(CodeIgniter\Shield\Entities\User))
+ 2 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Shield\Authentication\Passwords\ValidationRules->strong_password('iJ5:p5ALtWR.CM-', '', [...], null, 'password')
+ 3 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('password', 'Auth.password', 'iJ5:p5ALtWR.CM-', [...], [...])
+ 4 SYSTEMPATH\Controller.php(165): CodeIgniter\Validation\Validation->run([...], null, null)
+ 5 FCPATH\vendor\codeigniter4\shield\src\Controllers\RegisterController.php(100): CodeIgniter\Controller->validateData([...], [...], [], null)
+ 6 SYSTEMPATH\CodeIgniter.php(922): CodeIgniter\Shield\Controllers\RegisterController->registerAction()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 18:18:28 --> Myth\Auth\Authentication\Passwords\PasswordValidator::check(): Argument #2 ($user) must be of type ?Myth\Auth\Entities\User, CodeIgniter\Shield\Entities\User given, called in C:\xampp\htdocs\ci-homeland\vendor\codeigniter4\shield\src\Authentication\Passwords\ValidationRules.php on line 55
+in FCPATH\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php on line 26.
+ 1 FCPATH\vendor\codeigniter4\shield\src\Authentication\Passwords\ValidationRules.php(55): Myth\Auth\Authentication\Passwords\PasswordValidator->check('mJiuEs5.ZzHh6Ym', Object(CodeIgniter\Shield\Entities\User))
+ 2 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Shield\Authentication\Passwords\ValidationRules->strong_password('mJiuEs5.ZzHh6Ym', '', [...], null, 'password')
+ 3 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('password', 'Auth.password', 'mJiuEs5.ZzHh6Ym', [...], [...])
+ 4 SYSTEMPATH\Controller.php(165): CodeIgniter\Validation\Validation->run([...], null, null)
+ 5 FCPATH\vendor\codeigniter4\shield\src\Controllers\RegisterController.php(100): CodeIgniter\Controller->validateData([...], [...], [], null)
+ 6 SYSTEMPATH\CodeIgniter.php(922): CodeIgniter\Shield\Controllers\RegisterController->registerAction()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\RegisterController))
+ 8 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-25 18:20:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Properties\PropertiesController::$db is deprecated in APPPATH\Controllers\Properties\PropertiesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(894): App\Controllers\Properties\PropertiesController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-25 18:20:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Properties\PropertiesController::$db is deprecated in APPPATH\Controllers\Properties\PropertiesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(894): App\Controllers\Properties\PropertiesController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-25 18:20:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Properties\PropertiesController::$db is deprecated in APPPATH\Controllers\Properties\PropertiesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(894): App\Controllers\Properties\PropertiesController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-25 18:20:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Properties\PropertiesController::$db is deprecated in APPPATH\Controllers\Properties\PropertiesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(894): App\Controllers\Properties\PropertiesController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-25 18:20:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Properties\PropertiesController::$db is deprecated in APPPATH\Controllers\Properties\PropertiesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(894): App\Controllers\Properties\PropertiesController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-25 18:20:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH\Controllers\Users\UsersController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(894): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-25 18:20:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH\Controllers\Users\UsersController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(894): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-25 18:21:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admins\AdminsController::$db is deprecated in APPPATH\Controllers\Admins\AdminsController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(894): App\Controllers\Admins\AdminsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-25 18:21:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admins\AdminsController::$db is deprecated in APPPATH\Controllers\Admins\AdminsController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(894): App\Controllers\Admins\AdminsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-25 18:21:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admins\AdminsController::$db is deprecated in APPPATH\Controllers\Admins\AdminsController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(894): App\Controllers\Admins\AdminsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-25 18:21:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admins\AdminsController::$db is deprecated in APPPATH\Controllers\Admins\AdminsController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(894): App\Controllers\Admins\AdminsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-25 18:21:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Properties\PropertiesController::$db is deprecated in APPPATH\Controllers\Properties\PropertiesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(894): App\Controllers\Properties\PropertiesController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-25 18:21:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admins\AdminsController::$db is deprecated in APPPATH\Controllers\Admins\AdminsController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(894): App\Controllers\Admins\AdminsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-25 18:22:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Properties\PropertiesController::$db is deprecated in APPPATH\Controllers\Properties\PropertiesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(894): App\Controllers\Properties\PropertiesController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-25 18:22:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Properties\PropertiesController::$db is deprecated in APPPATH\Controllers\Properties\PropertiesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(894): App\Controllers\Properties\PropertiesController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-25 18:35:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admins\AdminsController::$db is deprecated in APPPATH\Controllers\Admins\AdminsController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(894): App\Controllers\Admins\AdminsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-25 18:35:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admins\AdminsController::$db is deprecated in APPPATH\Controllers\Admins\AdminsController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(894): App\Controllers\Admins\AdminsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(356): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-25 18:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
